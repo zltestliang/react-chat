@@ -1,0 +1,30 @@
+.login{
+
+}
+.login .form-container{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 320px;
+    height: 320px;
+    margin-left: -160px;
+    margin-top: -160px;
+    padding: 20px;
+    /* box-shadow: 0 0 50px rgba(0,0,0,0.2); */
+}
+.login .form-container .logo{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+.login-status{
+    color: #f5222d;
+    font-size: 14px;
+}
+.login .h50{
+    height: 40px;
+    line-height: 40px;
+    font-size: 26px;
+    text-align: center;
+}

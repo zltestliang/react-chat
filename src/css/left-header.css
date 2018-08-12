@@ -1,0 +1,24 @@
+.left-header{
+    padding: 18px;
+    align-items: center;
+}
+.left-header .hd{
+    padding-right: 10px;
+}
+.left-header .bd{
+    color: #fff;
+    font-size: 18px;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.left-header .ft .opt{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("https://res.wx.qq.com/a/wx_fed/webwx/res/static/css/3d77c66cd37282eb9aae25295f7b0302@2x.png") no-repeat;
+    background-position: -434px -398px;
+    -webkit-background-size: 487px 462px;
+    background-size: 487px 462px;
+}

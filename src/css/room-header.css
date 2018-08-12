@@ -1,0 +1,44 @@
+.room-header{
+    display: inline-block;
+    text-align: center;
+    height: 25px;
+    cursor: pointer
+}
+.room-header .name{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 2px;
+}
+.room-header .count{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.room-header .down-icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background: url("../images/package.png") no-repeat;
+    background-position: -477px -65px;
+    -webkit-background-size: 487px 462px;
+    background-size: 487px 462px;
+}
+.room-header .up-icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background: url("../images/package.png") no-repeat;
+    background-position: -477px -55px;
+    -webkit-background-size: 487px 462px;
+    background-size: 487px 462px;
+}

@@ -1,0 +1,42 @@
+.friend-item{
+    overflow: hidden;
+    padding: 12px 18px 11px;
+    border-bottom: 1px solid #292c33;
+    cursor: pointer;
+    position: relative;
+}
+.friend-item-active{
+    background: #3a3f45;
+}
+.friend-item .hd{
+    margin-right: 10px;
+    float: left;
+}
+.friend-item .bd{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+}
+.friend-item .bd .nick{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.friend-item .bd .msg{
+    color: #989898;
+    font-size: 13px;
+    /* width: 190px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.friend-item .ft{
+    color: #ffffff;
+    font-size: 13px;
+    text-align: right;
+}

@@ -1,0 +1,62 @@
+.member-list{
+    position: absolute;
+    z-index: 99;
+    right: 19px;
+    left: 19px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.5s;
+    top: 40px;
+    opacity: 0;
+    height: 0;
+    max-height: 300px;
+    overflow: hidden;
+    background: #eee;
+}
+.member-list-enter{
+    height: auto;
+    top: 51px;
+    opacity: 1;
+}
+.member-list .member{
+    float: left;
+    position: relative;
+    height: 85px;
+    margin-right: 7px;
+    margin-left: 7px;
+    padding-top: 10px;
+}
+.member-list .member img{
+    display: block;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 50%;
+}
+.member-list .member .nickname{
+    color: #888;
+    width: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: -8px;
+    font-size: 12px;
+}
+.member-list .addmember{
+    float: left;
+    width: 64px;
+    height: 85px;
+    margin-right: 7px;
+    margin-left: 7px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.member-list .addmember i{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: url("../images/package.png") no-repeat;
+    background-position: -422px -55px;
+    -webkit-background-size: 487px 462px;
+    background-size: 487px 462px;
+}

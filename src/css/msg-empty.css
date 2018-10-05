@@ -1,0 +1,15 @@
+.msg-empty{
+    width: 100%;
+    text-align: center;
+    color: #cccccc;
+    font-size: 13px;
+}
+.msg-empty .icon{
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    background: url("../images/package.png") no-repeat;
+    background-position: -96px -150px;
+    -webkit-background-size: 487px 462px;
+    background-size: 487px 462px;
+}
